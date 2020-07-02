@@ -1,0 +1,76 @@
+#page-update-room {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#page-update-room form {
+  margin: 64px auto;
+  padding: 64px;
+  max-width: 1100px;
+  background: #dcdcdc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-update-room form h1 {
+  font-size: 36px;
+}
+
+#page-update-room form .field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+#page-update-room form .field input[type="text"] {
+  flex: 1;
+  background: #f0f0f5;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  color: #6c6c80;
+}
+
+#page-update-room form .field input::placeholder {
+  color: #a0a0b2;
+}
+
+#page-update-room form .field label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+#page-update-room form .field :disabled {
+  cursor: not-allowed;
+}
+
+#page-update-room form .field-group .field + .field {
+  margin-left: 24px;
+}
+
+#page-update-room form .field-group input + input {
+  margin-left: 24px;
+}
+
+#page-update-room form button {
+  width: 260px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  align-self: flex-end;
+  margin-top: 40px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+#page-update-room form button:hover {
+  background: #2fb86e;
+}

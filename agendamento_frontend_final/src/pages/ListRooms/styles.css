@@ -1,0 +1,32 @@
+#page-list-rooms {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#page-list-rooms #listagem {
+  margin: 64px auto;
+  padding: 64px;
+  max-width: 1100px;
+  background: #dcdcdc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-list-rooms #listagem fieldset {
+  margin-top: 14px;
+  min-inline-size: auto;
+  border: 0;
+}
+
+#page-list-rooms #data {
+  margin: 10px auto;
+  padding: 24px;
+  max-width: 1100px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border: 2px dashed lightgray;
+}
